@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="loginSignupTemplate">
+        <div class="sideLeft">
+            <img src="https://cdn.zeplin.io/assets/webapp/img/onboarding-illustration-1.png" alt="">
+        </div>
+        <div class="sideRight">
+            <div class="welcome">
+                <p class="head">Great to have you here!</p>
+                <p>You can login to access your workspace.</p>
+            </div>
+            <div class="loginWith">
+                <button class="loginWithFigma">
+                    <img class="imgIcon" src="https://cdn.zeplin.io/assets/webapp/img/icFigmaDefault.svg">
+                    <span>
+                        Login with Figma
+                    </span>
+                </button>
+                <button class="loginWithGoogle">
+                    <img class="imgIcon"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png">
+                    <span>
+                        Login with Google
+                    </span>
+                </button>
+            </div>
+
+            <hr>
+            <div class="form">
+                <div class="formLogin">
+                    <input id="email" type="email" placeholder="Work email">
+                    <div class="fieldPass">
+                        <input id="password" type="password" placeholder="Password">
+                        <button id="showHide">Show</button>
+                    </div>
+                    <button id="btnLogin" class="buttonLogin" disabled>Login</button>
+                    <a class="loginWithSSO" href="#">Login with SSO</a>
+                </div>
+                <div class="error">
+                    <div class="messError">
+                        <svg width="9" height="9" viewBox="0 0 12 12">
+                            <path fill="#EE6723" fill-rule="evenodd"
+                                d="M6 3.898L2.317.215c-.282-.282-.759-.284-1.052.01l-1.04 1.04c-.298.298-.298.764-.01 1.052L3.898 6 .215 9.683c-.282.282-.284.759.01 1.052l1.04 1.04c.298.298.764.298 1.052.01L6 8.102l3.683 3.683c.282.282.759.284 1.052-.01l1.04-1.04c.298-.298.298-.764.01-1.052L8.102 6l3.683-3.683c.282-.282.284-.759-.01-1.052l-1.04-1.04c-.298-.298-.764-.298-1.052-.01L6 3.898z">
+                            </path>
+                        </svg>
+                        <p>Your email or password is not correct.</p>
+                    </div>
+                    <a href="#">Forgot password?</a>
+                </div>
+            </div>
+            <hr>
+            <div class="footer">
+                <a href="#">Forgot password?</a>
+                <span>No account yet? <a href="./signUp.html">Sign up.</a></span>
+            </div>
+        </div>
+    </div>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

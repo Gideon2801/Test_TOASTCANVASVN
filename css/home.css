@@ -1,0 +1,200 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    margin: 0;
+}
+
+body{
+    margin: 10px     20px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headCenter{
+    display: flex;
+    gap: 10px;
+}
+
+.headCenter button{
+    padding: 3px 15px;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btnProject{
+    background-color: #ebf7ff;
+    color: #2865eb;
+}
+
+.searchInput{
+    display: flex;
+    background-color: #edeced;
+    height: 24px;
+    align-items: center;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.searchInput input{
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: 10px;
+    width: 120px;
+}
+
+.headRight{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.headRight button{
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+}
+
+.imgUser img{
+    width: 24px;
+    height: 24px;
+}
+
+.main{
+    margin: 100px 200px 0 200px;
+}
+
+.createProject{
+    display: flex;
+    padding: 100px 60px;
+    background-color: #edeced;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.description{
+    width: 55%;
+}
+
+.headDesc{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 0;
+    color: #222222;
+}
+
+.desc{
+    margin-bottom: 20px;
+    color: #777777;
+}
+
+.createFirstProj{
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    background-color: #3989f9;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.createFirstProj:hover{
+    background-color: #337be0;
+}
+
+.tips{
+    color: #777777;
+}
+
+.tips a{
+    text-decoration: none;
+    color: #2865eb;
+}
+
+.sample{
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.sample div{
+    width: 30%;
+    background-color: #edeced;
+    height: 200px;
+    border-radius: 5px;
+    padding-top: 3.4%;
+}
+
+.videoExample{
+    position: relative;
+
+}
+
+.mobile{
+    display: none;
+    text-align: center;
+    margin: 100px 10px;
+}
+
+.headMobileDesc{
+    font-weight: 250;
+    font-size: 30px;
+}
+
+.mobileDesc b{
+    font-weight: 500;
+}
+
+.example{
+    position: relative;
+    margin: 50px 0;
+    background-color: #edeced;
+    width: 100%;
+    padding-top: 56.2%;
+    border-radius: 10px;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    object-fit: scale-down;
+}
+
+.linkDownload{
+    width: 100%;
+    height: 44px;
+    border: none;
+    color: white;
+    background-color: #419bf9;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+    .pc{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}

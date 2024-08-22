@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/signUp.css">
+</head>
+
+<body>
+    <div class="signUpSignupTemplate">
+        <div class="sideLeft">
+            <img src="https://cdn.zeplin.io/assets/webapp/img/onboarding-illustration-1.png" alt="">
+        </div>
+        <div class="sideRight">
+            <div class="welcome">
+                <p class="head">Welcome to Zeplin!</p>
+                <p>We're so happy you're here, let’s start by signing up.</p>
+            </div>
+            <div class="signUpWith">
+                <button class="signUpWithFigma">
+                    <img class="imgIcon" src="https://cdn.zeplin.io/assets/webapp/img/icFigmaDefault.svg">
+                    <span>
+                        Sign up with Figma
+                    </span>
+                </button>
+                <button class="signUpWithGoogle">
+                    <img class="imgIcon"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png">
+                    <span>
+                        Sign up with Google
+                    </span>
+                </button>
+            </div>
+
+            <hr>
+            <div class="form">
+                <div class="formsignUp">
+                    <div class="email">
+                        <input id="email" type="email" placeholder="Work email">
+                        <p id="suggest">We'll send you an email to verify the address</p>
+                        <div class="messError">
+                            <svg width="9" height="9" viewBox="0 0 12 12">
+                                <path fill="#EE6723" fill-rule="evenodd"
+                                    d="M6 3.898L2.317.215c-.282-.282-.759-.284-1.052.01l-1.04 1.04c-.298.298-.298.764-.01 1.052L3.898 6 .215 9.683c-.282.282-.284.759.01 1.052l1.04 1.04c.298.298.764.298 1.052.01L6 8.102l3.683 3.683c.282.282.759.284 1.052-.01l1.04-1.04c.298-.298.298-.764.01-1.052L8.102 6l3.683-3.683c.282-.282.284-.759-.01-1.052l-1.04-1.04c-.298-.298-.764-.298-1.052-.01L6 3.898z">
+                                </path>
+                            </svg>
+                            <p>Your email doesn't look right!</p>
+                        </div>
+                        <div class="checkEmail">
+                            <svg width="12" height="8.571428571428571" viewBox="0 0 14 10">
+                                <path fill="#C8CF2D" fill-rule="evenodd"
+                                    d="M5 10 0 5.192l1.4-1.346L5 7.308 12.6 0 14 1.346z"></path>
+                            </svg>
+                            <p>Looks good!</p>
+                        </div>
+                    </div>
+                    <div class="password">
+                        <div class="fieldPass">
+                            <input id="password" type="password" placeholder="Password">
+                            <button id="showHide">Show</button>
+                        </div>
+                        <p id="suggestPass">Type 8 characters or more</p>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="check">
+                        <p>I agree to <b> Terms of Service</b></p>
+                    </div>
+                    <button id="btnsignUp" class="buttonsignUp" disabled>Sign up for free</button>
+                </div>
+
+            </div>
+            <hr>
+            <div class="footer">
+                <span>Already have an account? <a href="./login.html">Login.</a></span>
+            </div>
+        </div>
+    </div>
+    <script src="../js/signUp.js"></script>
+</body>
+
+</html>
